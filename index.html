@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Gallery</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        h1, h2, h3 {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 py-6">
+            <h1 class="text-3xl font-bold text-gray-900">Game Gallery</h1>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Game 1 -->
+            <a href="game.html?game=1" class="block group">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 group-hover:transform group-hover:scale-105 group-hover:shadow-xl">
+                    <div class="bg-indigo-600 w-full h-48">
+                        <img src="https://via.placeholder.com/400x300/4F46E5/FFFFFF?text=Pixel+Adventure" alt="Pixel Adventure" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h2 class="text-xl font-semibold text-gray-900 mb-2">Pixel Adventure</h2>
+                        <p class="text-gray-600">by Sarah Johnson</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Game 2 -->
+            <a href="game.html?game=2" class="block group">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 group-hover:transform group-hover:scale-105 group-hover:shadow-xl">
+                    <div class="bg-emerald-600 w-full h-48">
+                        <img src="https://via.placeholder.com/400x300/10B981/FFFFFF?text=Space+Explorer" alt="Space Explorer" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h2 class="text-xl font-semibold text-gray-900 mb-2">Space Explorer</h2>
+                        <p class="text-gray-600">by Michael Chen</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Game 3 -->
+            <a href="game.html?game=3" class="block group">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 group-hover:transform group-hover:scale-105 group-hover:shadow-xl">
+                    <div class="bg-amber-600 w-full h-48">
+                        <img src="https://via.placeholder.com/400x300/F59E0B/FFFFFF?text=Dragon+Quest" alt="Dragon Quest" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h2 class="text-xl font-semibold text-gray-900 mb-2">Dragon Quest</h2>
+                        <p class="text-gray-600">by Emma Rodriguez</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Game 4 -->
+            <a href="game.html?game=4" class="block group">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 group-hover:transform group-hover:scale-105 group-hover:shadow-xl">
+                    <div class="bg-pink-600 w-full h-48">
+                        <img src="https://via.placeholder.com/400x300/EC4899/FFFFFF?text=Music+Maker" alt="Music Maker" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h2 class="text-xl font-semibold text-gray-900 mb-2">Music Maker</h2>
+                        <p class="text-gray-600">by David Park</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Game 5 -->
+            <a href="game.html?game=5" class="block group">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 group-hover:transform group-hover:scale-105 group-hover:shadow-xl">
+                    <div class="bg-purple-600 w-full h-48">
+                        <img src="https://via.placeholder.com/400x300/8B5CF6/FFFFFF?text=Math+Adventure" alt="Math Adventure" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h2 class="text-xl font-semibold text-gray-900 mb-2">Math Adventure</h2>
+                        <p class="text-gray-600">by Lisa Thompson</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t mt-12">
+        <div class="max-w-7xl mx-auto px-4 py-6">
+            <p class="text-center text-gray-600">© 2024 Game Gallery. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
